@@ -1,0 +1,49 @@
+/* .text-1 {
+    display: inline-block;
+}
+
+.subtext {
+    display: inline-block;
+}
+
+text-2 {
+    display: inline-block;
+} */
+
+.text-1 {
+    display: flex;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 5px solid red;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* img {
+    margin: 30px;
+} */
+
+#main {
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+  }
+  
+ 
+  #myBlueDiv {
+    align-self:center;
+  }
